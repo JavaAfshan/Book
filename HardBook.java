@@ -33,4 +33,12 @@ data=data+"\nThis is not available";
 return data;
 }
 
+String getbookname()
+{
+return getBookname();	
+}
+String getauthorname()
+{
+return getAuthorname();
+}
 }
