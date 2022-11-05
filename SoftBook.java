@@ -24,4 +24,15 @@ data=data+"\nMore information\n\nType:\tSoft Form\nFile Type:\t\t"+filetype+"\nL
 return data;
 }
 
+
+String getbookname()
+{
+return getBookname();	
+}
+
+
+String getauthorname()
+{
+return getAuthorname();
+}
 }
