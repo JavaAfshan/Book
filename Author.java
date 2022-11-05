@@ -18,4 +18,8 @@ String ShowData()
 	String data="Name:\t"+name+"\n"+"Email\t"+email+"\n"+"Gender\t"+gender+"\n";
 	return data;
 }
+String getAuthorname()
+{
+return name;	
+}
 }
