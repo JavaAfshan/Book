@@ -32,7 +32,26 @@ String data="\n\nBook Information\n\nName:\t"+name+"\nISBN\t"+ISBN;
 	}
 	return data;
 }
+String getBookname()
+{
+return name;	
+}
 
+
+String getAuthorname()
+{
+String data="";
+for(int i=0;i<numberofauthors;i++)
+{
+data=data+authors1[i].getAuthorname();	
+}
+return data;
+}
+ 
+String getispn()
+{
+return ISBN;
+}
 }
 
 
